@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import {AiOutlineHome} from "react-icons/ai";
 import {BsPerson, BsCodeSlash} from "react-icons/bs";
 import {CgFileDocument} from "react-icons/cg";
+import RecruitmentStatus from "./Recruitment.jsx"
 
 
 const Nav = () => {
@@ -43,6 +44,8 @@ const Nav = () => {
     <nav className={navbarblur? 'Navbar blur':'Navbar'}> 
  
         <h1 title='Reload' onClick={()=>window.location.reload(true)} className='Logo'>TC</h1>
+
+        <RecruitmentStatus />
 
         <div className='Hamburger' onClick={showMenu}>
             <span className='bar'></span>

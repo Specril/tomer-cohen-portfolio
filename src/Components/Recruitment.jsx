@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const RecruitmentNotifier = () => (
-  <div className="recruitment-notifier">
-    <div className="title is-6">Recruitment Status</div>
-    <span className="notification-status"></span>
-    Still Not Looking
-  </div>
-);
+const RecruitmentStatus = () => {
+  const [isLookingForJob, setIsLookingForJob] = useState(true);
+
+  const toggleStatus = () => {
+    setIsLookingForJob((prevStatus) => !prevStatus);
+  };
+
+  return (
+    <div className="recruitment-status">
+      <div
+        className={`light-bulb ${isLookingForJob ? "green" : "red"}`}
+      ></div>
+      <p>{
+        isLookingForJob
+          ? "LOOKING FOR A JOB"
+          : "CURRENTLY NOT LOOKING FOR A JOB"
+      }</p>
+    </div>
+  );
+};
+
+export default RecruitmentStatus;

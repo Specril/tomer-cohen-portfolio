@@ -5,6 +5,7 @@ import programmer from "../LottieFiles/programmer.json";
 import Typed from "./Typed.jsx";
 import Tilt from 'react-parallax-tilt';
 import Skills from './Skills.jsx';
+import RecruitmentStatus from "./Recruitment.jsx"
 
 const Home = () => {
   return (
@@ -43,6 +44,9 @@ const Home = () => {
         />
         </Tilt>
       </div>
+      <div>
+        <RecruitmentStatus></RecruitmentStatus>
+      </div>
       <h1 className='SkillsHeading'>Professional Skillset</h1>
       <div className='skills'>
         <Skills skill='Python'/> 
@@ -62,6 +66,7 @@ const Home = () => {
         <Skills skill='Unity'/> 
         
       </div>
+
     </div>
   )
 }
