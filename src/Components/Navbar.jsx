@@ -52,8 +52,7 @@ const Nav = () => {
 
         <ul className='NavbarLinks'>
             <li onClick={hideMenu}><Link to="/tomer-cohen-portfolio"><AiOutlineHome/> Home</Link></li>
-            <li onClick={hideMenu}><Link to="/tomer-cohen-portfolio/About"><BsPerson/> About</Link></li>
-            <li onClick={hideMenu}><Link to="/tomer-cohen-portfolio/Project"><BsCodeSlash/> Project</Link></li>
+            <li onClick={hideMenu}><Link to="/tomer-cohen-portfolio/Projects"><BsCodeSlash/> Projects</Link></li>
             <li onClick={hideMenu}><Link to="/tomer-cohen-portfolio/Resume"><CgFileDocument/> Resume</Link></li>
         </ul>
         

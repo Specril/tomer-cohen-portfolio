@@ -46,8 +46,7 @@ function App() {
 
       <Routes>
         <Route path="/tomer-cohen-portfolio" element={<Home/>} />
-        <Route path="/tomer-cohen-portfolio/About" element={<About/>}/>
-        <Route path="/tomer-cohen-portfolio/Project" element={<Project/>}/>
+        <Route path="/tomer-cohen-portfolio/Projects" element={<Project/>}/>
         <Route path="/tomer-cohen-portfolio/Resume" element={<Resume/>}/>
       </Routes>
       

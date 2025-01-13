@@ -5,21 +5,13 @@ import {CgFileDocument} from "react-icons/cg";
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    GoalNetDesc:"A comprehensive web application for managing players, matches, and administrative tasks in the Israeli Hockey League. The platform includes scheduling tools, match tracking, league statistics, and detailed profiles for players and teams. Built with Next.js, React, Node.js, and SQL",
+    GoalNetGithub:"https://github.com/Specril/Israeli-Hockey-League-Web-Application",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
-    
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    DeadLiftDesc:"Created during Global Game Jam 2024, Dead Lift is a fast-paced, two-player ragdoll game where players compete to climb as high as possible against the clock. Built from scratch in just 48 hours using Unity and won 2nd place at the competition.",
+    DeadLiftGithub:"https://github.com/dendefo/Dead-Lift",
+    DeadLiftWebsite:"https://globalgamejam.org/games/2024/dead-lift-4"
   }
 
   let show ='';
