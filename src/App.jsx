@@ -10,6 +10,7 @@ import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
 import HashLoader from "react-spinners/HashLoader";
+import { PuffLoader } from "react-spinners";
 
 function App() {
   const[Loading,SetLoading]=useState(true);
@@ -26,7 +27,7 @@ function App() {
     <>
       {Loading ? (
       <div className="loader"> 
-        <HashLoader
+        <PuffLoader
           color={'#9067C6'}
           loading={true}
           size={100}
