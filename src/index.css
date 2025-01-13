@@ -443,10 +443,19 @@ b{
 /* Resume */
 
 .ResumePage{
+  display: flex;
+  flex-direction: column;
   padding-top: 50px;
   width: fit-content;
   position: relative;
   margin: 100px auto 0px;
+  text-align: center;
+}
+
+.resumeiframe{
+  width: "360px";
+  height: "640px";
+  position: relative;
   text-align: center;
 }
 
