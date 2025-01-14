@@ -3,13 +3,11 @@ import { useEffect, useState } from "react";
 import Nav from './Components/Navbar';
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
-import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Project from "./Components/Projects";
 import MoveToTop from "./Components/MoveToTop";
 import Lottie from  "lottie-react";
 import nightsky from "./LottieFiles/night-sky.json";
-import HashLoader from "react-spinners/HashLoader";
 import { PuffLoader } from "react-spinners";
 
 function App() {
