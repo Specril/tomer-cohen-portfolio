@@ -527,6 +527,11 @@ footer h4{
   }
 }
 
+.footerLinks a:hover{
+    transform: scale(1.15);
+    box-shadow: 0 4px 10px 0 #431f47;
+}
+
 
 
 .recruitment-status {
