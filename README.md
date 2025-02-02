@@ -7,6 +7,7 @@
 	<img src="https://img.shields.io/github/languages/top/Specril/tomer-cohen-portfolio?style=default&color=8f00ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/Specril/tomer-cohen-portfolio?style=default&color=8f00ff" alt="repo-language-count">
 </p>
+<p><h3><a href="https://specril.github.io/tomer-cohen-portfolio/">LINK TO THE SITE</a></h3></p>
 <br>
 
 ## 📌 Overview
