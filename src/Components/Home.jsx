@@ -60,9 +60,9 @@ const Home = () => {
         <Skills skill='C++' />
         <Skills skill='VSCode'/> 
         <Skills skill='Unity'/> 
-        
-      </div>
 
+      </div>
+      
     </div>
   )
 }

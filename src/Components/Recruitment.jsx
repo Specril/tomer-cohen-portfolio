@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const RecruitmentStatus = () => {
-  const [isLookingForJob, setIsLookingForJob] = useState(true);
+  const [isLookingForJob, setIsLookingForJob] = useState(false);
 
   const toggleStatus = () => {
     setIsLookingForJob((prevStatus) => !prevStatus);
