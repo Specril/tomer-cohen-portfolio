@@ -537,14 +537,16 @@ footer h4{
 .recruitment-status {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   font-family: "Pixelify Sans", serif;
   font-optical-sizing: auto;
 }
 
 .light-bulb {
-  width: 20px;
-  height: 20px;
+  margin: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   animation: flicker 1.5s infinite ease-in-out;
 }
@@ -562,6 +564,13 @@ footer h4{
 @keyframes flicker {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.5; }
+}
+
+@media(max-width: 450px) {
+  .recruitment-status {
+    font-size: 10px;
+  }
+  
 }
 
 button {
