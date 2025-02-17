@@ -7,6 +7,8 @@ import Tilt from 'react-parallax-tilt';
 import Skills from './Skills.jsx';
 
 const Home = () => {
+
+  const WORK_URL = "https://www.shutterfly.com/";
   return (
     <div >
       <div className='HomePage'>
@@ -32,7 +34,7 @@ const Home = () => {
             I am fluent in <b>Python</b> and worked with many more languages, tools and frameworks.<br/><br/>
             Whether I'm diving into a data set, building a full-stack project, or experimenting with game development,
             I always strive to learn something new.<br/><br/>
-            Currently, I'm focusing on creating projects and looking for a <b>Junior Software Developer</b> role. 
+            Currently, I'm working as a <b>Software Developer</b> @ <b><a href={WORK_URL}>Shutterfly</a></b>. 
             <br />
           </p>
         </div>
